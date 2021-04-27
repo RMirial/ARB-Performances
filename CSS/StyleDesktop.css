@@ -844,10 +844,7 @@ h6 {
     ==================================*/
 
     #navbar{
-        display: block;
-        position: relative;
-        width:;
-        z-index:;
+        display: none;
     }
     
         .logo img {
