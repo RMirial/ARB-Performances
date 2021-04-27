@@ -842,6 +842,13 @@ h6 {
     
         /* HEADER MOBILE
     ==================================*/
+
+    #navbar{
+        display: block;
+        position: relative;
+        width:;
+        z-index:;
+    }
     
         .logo img {
             width: 30%;
