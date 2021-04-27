@@ -841,7 +841,7 @@ h6 {
         }
 
         #section_first{
-            padding-top: 15%;
+            padding-top: 18%;
         }
     
         /* HEADER MOBILE
@@ -956,13 +956,21 @@ h6 {
         #menuToggle input:checked~ul {
             transform: none;
         }
-    
-   /* ACCUEIL
-==================================*/
+            
+    /* ACCUEIL
+    ==================================*/
 
-#accueil{
-    padding-top: 15%;
-}
+        #accueil{
+            padding-top: 18%;
+        }
+
+    /* COURSE MOBILE
+    ==================================*/
+
+        #calendrier{
+            padding-top: 18%;
+
+        }
 
         /* COURSE MOBILE
     ==================================*/
@@ -1270,7 +1278,14 @@ h6 {
         #Carousel .container {
             margin-bottom: 3%;
         }
-    
+        
+        /* CONTACT DESKTOP
+    ==================================*/
+
+        #formulaire_participe{
+            padding-top: 18%;
+        }    
+
         /* BOUTIQUE MOBILE
     ==================================*/
     
@@ -1326,14 +1341,9 @@ h6 {
         #sponsors_logo {
             margin-top: 8%;
             margin-bottom: 3%;
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
         }
     
         #sponsors_logo img {
-            width: 8%;
-            height: auto;
             margin-left: 1px;
             margin-right: 1px;
         }
