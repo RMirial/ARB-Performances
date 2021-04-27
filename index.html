@@ -145,6 +145,51 @@
             echo $msg;
          }
          ?>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+liens + clé client:
+<script src="https://www.google.com/recaptcha/api.js?render=6LeZnLsaAAAAAIDeL2M5tgUFiG1PlITzFE1xBRKr"></script>
+
+//fonction + clé client
+<script>
+    function onClick(e) {
+      e.preventDefault();
+      grecaptcha.ready(function() {
+        grecaptcha.execute('6LeZnLsaAAAAAIDeL2M5tgUFiG1PlITzFE1xBRKr', {action: 'submit'}).then(function(token) {
+            // Add your logic to submit to your backend server here.
+        });
+      });
+    }
+</script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+
+function get_action(form) 
+{
+    var v = grecaptcha.getResponse();
+    if(v.length == 0)
+    {
+        document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
+        return false;
+    }
+    else
+    {
+         document.getElementById('captcha').innerHTML="Captcha completed";
+        return true; 
+    }
+}
+</script>
+
+<div class="buttondevis text-center">
+    <center><div class="g-recaptcha" id="rcaptcha"  data-sitekey="6LeZnLsaAAAAAIDeL2M5tgUFiG1PlITzFE1xBRKr"></div></center>
+        <span id="captcha" style="color:red" /></span>  
+      <button type="submit" name="contact" class="button2 btn-form">
+        <span class='txt'>Envoyer</span>
+      </button>
+    </div>
+
+
     </section>
 
     <!-- SPONSORS
