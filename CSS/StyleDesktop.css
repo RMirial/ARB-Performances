@@ -955,11 +955,18 @@ h6 {
     ==================================*/
     
         .course {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             margin-left: 15%;
             margin-right: 15%;
             margin-top: 6%;
             margin-bottom: 5%;
             height: 300px;
+            background-color: #aaaaaa;
+            border: solid;
+            border-color: #000000;
         }
     
         .compte_a_rebours_participe {
@@ -1305,9 +1312,15 @@ h6 {
     
         #sponsors_logo {
             margin-top: 8%;
+            margin-bottom: 3%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
         }
     
         #sponsors_logo img {
+            width: 8%;
+            height: auto;
             margin-left: 1px;
             margin-right: 1px;
         }
@@ -1316,6 +1329,11 @@ h6 {
     ========================================*/
     
         #footer {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            flex-direction: column;
+            background-color: #000000;
             height: 80px;
         }
     
