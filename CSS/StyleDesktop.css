@@ -839,6 +839,10 @@ h6 {
             background-color: #01015f;
             color: #f11212;
         }
+
+        #section_first{
+            padding-top: 15%;
+        }
     
         /* HEADER MOBILE
     ==================================*/
@@ -953,6 +957,13 @@ h6 {
             transform: none;
         }
     
+   /* ACCUEIL
+==================================*/
+
+#accueil{
+    padding-top: 15%;
+}
+
         /* COURSE MOBILE
     ==================================*/
     
