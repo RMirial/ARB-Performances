@@ -115,7 +115,7 @@
 
     <section class="plus_actu">
         <div class="trait_G"></div>
-       <button class="btn btn2"><a href="actualites.html" style="text-decoration: none;">Plus d'actu</a></button> 
+       <button class="btn btn2"><a href="actualites.html" class="btn btn2" style="text-decoration: none;">Plus d'actu</a></button> 
         <div class="trait_D"></div>
     </section>
 
@@ -148,14 +148,14 @@
 
 <script src="https://www.google.com/recaptcha/api.js"></script>
 liens + clé client:
-<script src="https://www.google.com/recaptcha/api.js?render=6LeZnLsaAAAAAIDeL2M5tgUFiG1PlITzFE1xBRKr"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfjoLsaAAAAAJcAD31nGNWmA12B02Y84IftWlbS"></script>
 
 //fonction + clé client
 <script>
     function onClick(e) {
       e.preventDefault();
       grecaptcha.ready(function() {
-        grecaptcha.execute('6LeZnLsaAAAAAIDeL2M5tgUFiG1PlITzFE1xBRKr', {action: 'submit'}).then(function(token) {
+        grecaptcha.execute('6LfjoLsaAAAAAJcAD31nGNWmA12B02Y84IftWlbS', {action: 'submit'}).then(function(token) {
             // Add your logic to submit to your backend server here.
         });
       });
@@ -182,10 +182,9 @@ function get_action(form)
 </script>
 
 <div class="buttondevis text-center">
-    <center><div class="g-recaptcha" id="rcaptcha"  data-sitekey="6LeZnLsaAAAAAIDeL2M5tgUFiG1PlITzFE1xBRKr"></div></center>
+    <center><div class="g-recaptcha" id="rcaptcha"  data-sitekey="6LfjoLsaAAAAAJcAD31nGNWmA12B02Y84IftWlbS"></div></center>
         <span id="captcha" style="color:red" /></span>  
       <button type="submit" name="contact" class="button2 btn-form">
-        <span class='txt'>Envoyer</span>
       </button>
     </div>
 
