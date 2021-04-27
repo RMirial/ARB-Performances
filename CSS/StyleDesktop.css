@@ -842,10 +842,6 @@ h6 {
     
         /* HEADER MOBILE
     ==================================*/
-
-    #navbar{
-        display: none;
-    }
     
         .logo img {
             width: 30%;
@@ -933,6 +929,8 @@ h6 {
         }
     
         #menu {
+            display: flex;
+            flex-direction: column;
             position: absolute;
             width: 300px;
             margin: -100px 0 0 -50px;
