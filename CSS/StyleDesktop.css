@@ -190,9 +190,9 @@ h6 {
     /* COURSE DESKTOP
 ==================================*/
 
-#calendrier{
-    padding-top: 8%;
-    background-image: url(../ressources/images/Banque_images/Divers_paysage/BRC.jpg);
+    #calendrier{
+        padding-top: 8%;
+        background-image: url(../ressources/images/Banque_images/Divers_paysage/BRC.jpg);
         background-size: cover;
         background-position: center;
 }
