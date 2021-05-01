@@ -595,10 +595,8 @@ td {
 }
 
 .boutton_produit {
-    display: flex;
-    flex-direction: column;
     margin-right: 3%;
-    width: 15%;
+    
 }
 
 #Quantité {
