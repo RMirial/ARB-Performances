@@ -585,7 +585,7 @@ td {
     font-family: 'Yusei Magic', sans-serif;
     font-size: 180%;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -596,7 +596,7 @@ td {
 
 .boutton_produit {
     margin-right: 3%;
-    width:80px;
+    width:200px;
 }
 
 #Quantité {
