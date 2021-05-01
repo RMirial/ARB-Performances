@@ -737,7 +737,7 @@ td {
     .actu {
         margin-left: 3%;
         margin-right: 3%;
-        height: 250px;
+        height: 280px;
     }
 
     /* PARTENAIRES TABLETTE
@@ -1096,14 +1096,14 @@ td {
         background-position: center;
         background-repeat: repeat;
     }
-    
+
     .actu4 {
         background-image: url(../ressources/images/Banque_images/Divers_moto/MULET.jpg);
-        background-size: 180%;
+        background-size: 200%;
         background-position: center;
         background-repeat: repeat;
     }
-    
+
     .actu5 {
         background-image: url(../ressources/images/Banque_images/12hMC/12HMC6.jpg);
         background-size: 180%;
