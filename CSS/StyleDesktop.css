@@ -193,7 +193,7 @@ ul li a:hover {
 
 #calendrier {
     padding-top: 8%;
-    background-image: url(../ressources/images/Banque_images/Divers_paysage/BRC.jpg);
+    background-image: url(../ressources/images/Banque_images/12hMC/12HMC8.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -242,6 +242,12 @@ ul li a:hover {
 }
 
 .btn:hover {
+    display: block;
+    background-color: rgb(1, 1, 95);
+    color: rgb(241, 18, 18);
+}
+
+.btn a:hover {
     display: block;
     background-color: rgb(1, 1, 95);
     color: rgb(241, 18, 18);
