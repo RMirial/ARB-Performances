@@ -193,7 +193,7 @@ ul li a:hover {
 
 #calendrier {
     padding-top: 8%;
-    background-image: url(../ressources/images/Banque_images/12hMC/12HMC8.jpg);
+    background-image: url(../ressources/images/Banque_images/Divers_paysage/BRC.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -211,6 +211,8 @@ ul li a:hover {
     background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(100, 100, 100));
     border: solid;
     border-color: #000000;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+
 }
 
 .compte_a_rebours_participe {
@@ -704,9 +706,9 @@ td {
 
     /* GLOBAL TABLETTE
 ===================================*/
-#section_first {
-    padding-top: 15%;
-}
+    #section_first {
+        padding-top: 15%;
+    }
 
     /* HEADER TABLETTE
 ========================================*/
