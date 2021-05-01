@@ -368,7 +368,7 @@ ul li a:hover {
     color: #ffffff;
 }
 
-.btn2 a hover {
+.btn2 a :hover {
     display: block;
     background-color: rgb(1, 1, 95);
     color: rgb(241, 18, 18);
