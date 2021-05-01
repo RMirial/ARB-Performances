@@ -74,7 +74,7 @@ if(isset($_POST['mailform'])) {
    }
    
 ?>
-//fonction + clé client
+
 <script>
     function onClick(e) {
       e.preventDefault();
