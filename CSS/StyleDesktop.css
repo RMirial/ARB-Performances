@@ -355,6 +355,16 @@ ul li a:hover {
     text-align: center;
 }
 
+.btn2 a {
+    text-align: center;
+    width: 30%;
+    height: 20%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 /* SOCIAL DESKTOP
 ==================================*/
 
