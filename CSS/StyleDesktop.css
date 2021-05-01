@@ -368,6 +368,11 @@ ul li a:hover {
     color: #ffffff;
 }
 
+.btn2 a hover {
+    text-decoration: none;
+    color: #ff0101;
+}
+
 
 /* SOCIAL DESKTOP
 ==================================*/
