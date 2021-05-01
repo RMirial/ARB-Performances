@@ -572,7 +572,9 @@ td {
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 2%;
+    padding-top: 2%;
     margin-bottom: 5%;
+    padding-bottom: 2%;
     height: 350px;
     background-color: #aaaaaa;
     border: solid;
@@ -587,7 +589,7 @@ td {
     font-family: 'Yusei Magic', sans-serif;
     font-size: 180%;
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     margin-left: 3%;
     margin-right: 3%;
 }
