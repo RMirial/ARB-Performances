@@ -1120,6 +1120,14 @@ td {
         margin-top: 5%;
     }
 
+    .btn2 a {
+        text-align: center;
+        width: 30%;
+        height: 20%;
+        margin-top: 5%;
+        text-decoration: none;
+    }
+
     /* SOCIAL MOBILE
     ==================================*/
 
