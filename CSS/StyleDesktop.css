@@ -369,8 +369,9 @@ ul li a:hover {
 }
 
 .btn2 a hover {
-    text-decoration: none;
-    color: #ff0101;
+    display: block;
+    background-color: rgb(1, 1, 95);
+    color: rgb(241, 18, 18);
 }
 
 
