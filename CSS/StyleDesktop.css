@@ -283,18 +283,21 @@ ul li a:hover {
     background-image: url(../ressources/images/Banque_images/Divers_paysage/BRC.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: repeat;
 }
 
 .actu3 {
     background-image: url(../ressources/images/Banque_images/Divers_paysage/header.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: repeat;
 }
 
 .actu4 {
     background-image: url(../ressources/images/Banque_images/Divers_moto/MULET.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: repeat;
 }
 
 
@@ -302,6 +305,7 @@ ul li a:hover {
     background-image: url(../ressources/images/Banque_images/12hMC/12HMC6.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: repeat;
 }
 
 
