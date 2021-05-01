@@ -249,12 +249,6 @@ ul li a:hover {
     color: rgb(241, 18, 18);
 }
 
-.btn a:hover {
-    display: block;
-    background-color: rgb(1, 1, 95);
-    color: rgb(241, 18, 18);
-}
-
 .tracks {
     height: 80%;
 }
@@ -376,9 +370,7 @@ ul li a:hover {
     color: #ffffff;
 }
 
-.btn2 a :hover {
-    display: block;
-    background-color: rgb(1, 1, 95);
+.btn2 a:hover {
     color: rgb(241, 18, 18);
 }
 
