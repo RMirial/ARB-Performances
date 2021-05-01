@@ -231,6 +231,7 @@ ul li a:hover {
 }
 
 .btn {
+    text-align: center;
     display: block;
     font-size: 15px;
     width: 200px;
@@ -846,6 +847,7 @@ td {
     }
 
     .btn {
+        text-align: center;
         display: block;
         font-size: 10px;
         width: 100px;
@@ -1112,6 +1114,7 @@ td {
     }
 
     .btn2 {
+        text-align: center;
         width: 30%;
         height: 20%;
         margin-top: 5%;
