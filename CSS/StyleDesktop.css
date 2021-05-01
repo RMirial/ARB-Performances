@@ -613,7 +613,7 @@ td {
 /* ADHESION & DONS DESKTOP
 ==================================*/
 
-.bandeau{
+.bandeau a img{
     width: 600px;
     height: 50px;
 }
