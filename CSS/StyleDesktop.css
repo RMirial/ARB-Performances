@@ -698,7 +698,9 @@ td {
 
     /* GLOBAL TABLETTE
 ===================================*/
-
+#section_first {
+    padding-top: 15%;
+}
 
     /* HEADER TABLETTE
 ========================================*/
