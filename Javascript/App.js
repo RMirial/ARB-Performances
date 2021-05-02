@@ -10,7 +10,7 @@ function compte_a_rebours1() {
     var total_secondes = (date_evenement - date_actuelle) / 1000;
 
     var prefixe =
-        "Prochain évenement le <strong> 15 & 16 </strong> Mai <br>Dijon Prenois<br> Manche 1 Championnat de France d'endurance<br> dans : ";
+        "Prochain évènement le <strong> 15 & 16 </strong> Mai <br>Dijon Prenois<br> Manche 1 Championnat de France d'endurance<br> dans : ";
     if (total_secondes < 0) {
         prefixe =
             "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
