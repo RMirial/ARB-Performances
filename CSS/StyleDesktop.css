@@ -28,18 +28,41 @@
 
 /* CSS DIRECTORY
 1. GLOBAL
-2. RESPONSIVE DESKTOP
-3. HEADER DESKTOP
-4. COURSE DESKTOP
-5. ACTU DESKTOP
-6. SOCIAL DESKTOP
-7. PARTENAIRES DESKTOP
-8. TEAM DESKTOP
-9. MOTO DESKTOP
-10. GALERIE DESKTOP
-11. BOUTIQUE DESKTOP
-12. SPONSORS FOOTER DESKTOP
-13. FOOTER DESKTOP
+2. HEADER DESKTOP
+3. COURSE DESKTOP
+4. ACTU DESKTOP
+5. SOCIAL DESKTOP
+6. PARTENAIRES DESKTOP
+7. TEAM DESKTOP
+8. MOTO DESKTOP
+9. GALERIE DESKTOP
+10. BOUTIQUE DESKTOP
+11. SPONSORS FOOTER DESKTOP
+12. FOOTER DESKTOP
+13. RESPONSIVE TABLETTE
+14. GLOBAL TABLETTE
+15. HEADER TABLETTE
+16. COURSE TABLETTE
+17. ACTU TABLETTE
+18. SOCIAL TABLETTE
+19. PARTENAIRES TABLETTE
+20. TEAM TABLETTE
+21. MOTO TABLETTE
+22. GALERIE TABLETTE
+23. BOUTIQUE TABLETTE
+24. ADHESION TABLETTE
+25. FOOTER TABLETTE
+26. RESPONSIVE MOBILE
+27. GLOBAL MOBILE
+28. HEADER MOBILE
+29. COURSE MOBILE
+30. ACTU MOBILE
+31. PARTENAIRES MOBILE
+21. TEAM MOBILE
+33. MOTO MOBILE
+34. GALERIE MOBILE
+35. BOUTIQUE MOBILE
+36. FOOTER MOBILE
 
 */
 
@@ -611,7 +634,7 @@ td {
 /* ADHESION & DONS DESKTOP
 ==================================*/
 
-.bandeau a img{
+.bandeau a img {
     width: 600px;
     height: 100px;
 }
@@ -716,7 +739,7 @@ td {
         font-size: 100%;
     }
 
-    #accueil{
+    #accueil {
         padding-top: 12%;
     }
 
@@ -756,7 +779,7 @@ td {
     /* CALENDRIER TABLETTE
 ==================================*/
 
-    #calendrier{
+    #calendrier {
         padding-top: 12%;
     }
 
@@ -843,13 +866,13 @@ td {
         margin-left: 2%;
     }
 
-    /* ADHESION & DONS DESKTOP
+    /* ADHESION & DONS TABLETTE
 ==================================*/
 
-.bandeau a img{
-    width: 450px;
-    height: 75px;
-}
+    .bandeau a img {
+        width: 450px;
+        height: 75px;
+    }
 
     /* SPONSORS FOOTER TABLETTE
 ==================================*/
@@ -1088,7 +1111,7 @@ td {
         margin-bottom: 2%;
     }
 
-    .text-calendrier{
+    .text-calendrier {
         display: none;
     }
 
@@ -1386,6 +1409,15 @@ td {
         margin-bottom: 3%;
     }
 
+    /* ADHESION & DONS MOBILE
+    ==================================*/
+
+    .bandeau a img {
+        width: 300px;
+        height: 50px;
+    }
+
+
     /* CONTACT DESKTOP
     ==================================*/
 
@@ -1466,5 +1498,4 @@ td {
         background-color: #000000;
         height: 80px;
     }
-
 }
