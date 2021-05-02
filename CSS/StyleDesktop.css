@@ -706,7 +706,7 @@ td {
     /* GLOBAL TABLETTE
 ===================================*/
     #section_first {
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
     /* HEADER TABLETTE
@@ -717,7 +717,7 @@ td {
     }
 
     #accueil{
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
     /* COURSE TABLETTE
@@ -757,7 +757,7 @@ td {
 ==================================*/
 
     #calendrier{
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
 
