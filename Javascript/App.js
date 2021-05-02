@@ -83,7 +83,7 @@ function compte_a_rebours2() {
     var total_secondes = (date_evenement - date_actuelle) / 1000;
 
     var prefixe =
-        "Prochain évenement le <strong> 03 & 04 </strong> Juin <br>Le vigeant <br>Roulage d'entrainement<br> dans : ";
+        "Prochain évènement le <strong> 03 & 04 </strong> Juin <br>Le vigeant <br>Roulage d'entrainement<br> dans : ";
     if (total_secondes < 0) {
         prefixe =
             "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
@@ -155,7 +155,7 @@ function compte_a_rebours3() {
     var total_secondes = (date_evenement - date_actuelle) / 1000;
 
     var prefixe =
-        "Prochain évenement le <strong> 03 & 04 </strong> Juillet <br>Le Vigeant<br> Manche 2 Championnat de France d'endurance<br> dans : ";
+        "Prochain évènement le <strong> 03 & 04 </strong> Juillet <br>Le Vigeant<br> Manche 2 Championnat de France d'endurance<br> dans : ";
     if (total_secondes < 0) {
         prefixe =
             "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
@@ -229,7 +229,7 @@ function compte_a_rebours4() {
     var total_secondes = (date_evenement - date_actuelle) / 1000;
 
     var prefixe =
-        "Prochain évenement le <strong> 31 </strong>Juillet <strong>& 01 </strong> Aout <br>Dijon Prenois<br> Manche 3 Championnat de France d'endurance<br> dans : ";
+        "Prochain évènement le <strong> 31 </strong>Juillet <strong>& 01 </strong> Aout <br>Dijon Prenois<br> Manche 3 Championnat de France d'endurance<br> dans : ";
     if (total_secondes < 0) {
         prefixe =
             "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
@@ -302,7 +302,7 @@ function compte_a_rebours5() {
     var total_secondes = (date_evenement - date_actuelle) / 1000;
 
     var prefixe =
-        "Prochain évenement le <strong> 04 & 05 </strong> Septembre <br>Le Mans<br> Manche 4 Championnat de France d'endurance<br> dans : ";
+        "Prochain évènement le <strong> 04 & 05 </strong> Septembre <br>Le Mans<br> Manche 4 Championnat de France d'endurance<br> dans : ";
     if (total_secondes < 0) {
         prefixe =
             "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
@@ -375,7 +375,7 @@ function compte_a_rebours6() {
     var total_secondes = (date_evenement - date_actuelle) / 1000;
 
     var prefixe =
-        "Prochain évenement le <strong> 09 & 10 </strong> Octobre <br>Magny-Cours<br> Manche 5 Championnat de France d'endurance<br> dans : ";
+        "Prochain évènement le <strong> 09 & 10 </strong> Octobre <br>Magny-Cours<br> Manche 5 Championnat de France d'endurance<br> dans : ";
     if (total_secondes < 0) {
         prefixe =
             "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
