@@ -1088,6 +1088,10 @@ td {
         margin-bottom: 2%;
     }
 
+    .text-calendrier{
+        display: none;
+    }
+
     /* ACTU MOBILE
     ==================================*/
 
